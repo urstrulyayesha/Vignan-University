@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vignan University - Notifications</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #9c3c19;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      height: 60px;
+      max-width: 100%;
+    }
+
+    header h1 {
+      font-size: 22px;
+      margin: 0;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      line-height: 1.3;
+    }
+
+    .notifications-section {
+      padding: 40px 60px;
+    }
+
+    h2 {
+      font-size: 30px;
+      color: #9c3c19;
+      margin-bottom: 25px;
+    }
+
+    .notifications-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: 0.2s ease;
+      border-radius: 8px;
+    }
+
+    .card:hover {
+      cursor: pointer;
+      background-color: #9c3c19;
+      color: white;
+      border-color: #9c3c19;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .card span {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card:hover span {
+      color: #eee;
+    }
+
+    .view-all {
+      text-align: right;
+      margin-top: 20px;
+    }
+
+    .view-all a {
+      color: #9c3c19;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    @media screen and (max-width: 600px) {
+      .notifications-section {
+        padding: 20px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      header h1 {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://vignan.ac.in/vignanmall/img/core-img/Logo%20with%20Deemed.svg" alt="Vignan University Logo">
+    <h1>Vignan's Foundation for Science, Technology and Research<br>(Deemed to be University)</h1>
+  </header>
+
+  <div class="notifications-section">
+    <h2>Latest Notifications</h2>
+    <div class="notifications-grid">
+      <div class="card">
+        <p>Guest Lecture on Tips & Strategies to Crack Graduate Pharmacy Aptitude Test</p>
+        <span>Posted On: 1st August 25</span>
+      </div>
+      <div class="card">
+        <p>Results_NPTEL Substitute Subjects Examination - July - 2025</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>B. Pharmacy I-II, II-I, II-II, III-I, III-II, IV-I (R18) and IV-II (R18) Supplementary Examinations June-July 2025 Retotalling Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>B. Tech. Age. I-I (R19), B. Tech. II-I, II-II, III-II and IV-0 (R16) Supplementary Examinations June-July Retotalling Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>B. Tech. II-I, II-II, III-I, III-II and IV-0 (R19) Supplementary Examinations June-July-2025 Retotalling Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>BBA I-I, II-I, II-II, III-I (R20) and III-II (R20) Supplementary Examinations June-July 2025 Retotalling Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>Diploma I-I, I-II, II-I, II-II and III-I (R21) Supplementary Examinations June-July 2025 Retotalling Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+      <div class="card">
+        <p>B. Pharmacy I-II, II-I, II-II, III-I, III-II, IV-I (R18) and IV-II (R18) Supplementary Examinations June-July 2025 Revaluation Notification</p>
+        <span>Posted On: 24th July 25</span>
+      </div>
+    </div>
+    <div class="view-all">
+      <a href="#">View All ↗</a>
+    </div>
+  </div>
+
+</body>
+</html>
